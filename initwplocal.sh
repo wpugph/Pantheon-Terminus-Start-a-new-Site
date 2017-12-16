@@ -1,11 +1,8 @@
 #!/bin/bash.
 
-# define your terminus executable path
-PATH=$PATH:/bin:/usr/bin:/home/carl/terminus/vendor/bin
-export PATH
+lando init wordpress
 
-# Generate your machine token here: https://pantheon.io/docs/machine-tokens/
-MACHINETOKEN='MACHINETOKEN'
+lando start
 
 # define your WP site settings
 SITENAME='Your WordPress Site Name'
